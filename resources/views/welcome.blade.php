@@ -51,7 +51,8 @@
             </form>
             <h1>{{ trans('welcome.greetings-1') }}</h1>
             <h1>{{ trans('welcome.greetings-2') }}</h1>
-            <p class="lead">{{ trans('welcome.intro') }}</p>
+          <p class="lead">{{ trans('welcome.intro-1') }}<br class="auto-line-break1">{{ trans('welcome.intro-2') }}<br class="auto-line-break2">{{ trans('welcome.intro-3') }}</p>
+
             <div class="">
               <a href="#tf-about" class="more page-scroll">{{ trans ('welcome.more') }}</a>
             </div>

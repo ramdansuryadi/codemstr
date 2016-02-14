@@ -92,10 +92,10 @@
       <div class="container">
         <div class="footer-wrapper">
           <div class="footer">
-            <div class="pull-left fnav">
+            <div class="pull-left fnav footer-mobile">
               <p>2015 MASPA - Machinery Spares</p>
             </div>
-            <div class="pull-right fnav">
+            <div class="pull-right fnav footer-mobile">
                 <div class="form-group">
                   <label for=""></label>
                   {{trans('menu.language')}} :

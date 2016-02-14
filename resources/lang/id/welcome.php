@@ -3,7 +3,9 @@
 return [
     'greetings-1' => 'Toko suku cadang online',
     'greetings-2' => 'terbesar di dunia',
-    'intro'       => 'Beli dari penjual terpercaya. Jual kepada pembeli terpercaya. Sesuai harga yang anda inginkan.',
+    'intro-1'       => 'Beli dari penjual terpercaya.',
+    'intro-2'       => 'Jual kepada pembeli terpercaya.',
+    'intro-3'       => 'Sesuai harga yang anda inginkan.',
     'more'        => 'Lebih Lanjut',
     'aboutHeader' => 'Menghubungkan Penjual dan Pembeli',
     'aboutIntro'  => 'Platform pencarian untuk pemesanan suku cadang permesinan Anda di ujung jari Anda.',

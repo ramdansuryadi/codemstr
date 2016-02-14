@@ -1,6 +1,20 @@
 /*
      Responsive to Landing Page
      ==========================================*/
+
+/*
+     Auto Line Break
+     ==========================================*/
+     @media (min-width: 1304px){
+       .auto-line-break2 { 
+        display: none; 
+      }
+    }
+    @media (min-width: 845px){
+     .auto-line-break1 { 
+      display: none;
+    }
+  }
 /*
      Responsive to Landing Page  Under 991px
      ==========================================*/
@@ -9,7 +23,6 @@
       .search-responsive{
         display:none;
       }
-
       #tf-profit .reg-btn {
        bottom: 0; 
        position:absolute ; 
@@ -19,28 +32,24 @@
       min-height: 450px;
       position: relative;
     }
-
     #tf-home h1 {
-      font-size: 50px;
+      font-size: 75px;
       margin-top: 7px;
       margin-bottom: 4px;
       line-height: 1.1;
     }
-
     #tf-home p.lead {
-   
       margin-bottom: 29px;
       padding: 0px 0px;
     }
-
     .section-title h2{
       font-size: 28px;
       line-height: 32px;
     }
-
     .content{
-      top: 0px;
-      padding: 100px 0px;
+      top: 80px;
+      padding: 0px 25px;
+      height:370px;
     }
     p.intro {
       margin: 20px 0 50px;
@@ -50,7 +59,7 @@
     }
     .service p {
      text-align:center;
-     line-height: 17px;
+     line-height: 20px;
    }
    p.intro {
     line-height: 20px;
@@ -66,7 +75,23 @@
   }
 }
 
+@media (max-width: 903px){
+ .content{
+  height:455px;
+}
+}
 
+@media (max-width: 845px){
+ .content{
+  height:490px;
+}
+}
+
+@media (max-width: 796px){
+  #tf-home h1 {
+    font-size: 70px;
+  }
+}
 
   /*
      Responsive to Landing Page   Under 768px
@@ -75,13 +100,11 @@
       .service{
         margin-bottom:30px;
       }
-
       .profit ul {
         padding-left: 24px;
         margin: 0 auto;
         padding-bottom: 25px;
       }
-
       #tf-profit .reg-btn {
         margin: 0 auto;
       }
@@ -89,7 +112,6 @@
        float:none;
        margin:0 auto;
      }
-
      .contact .call {
        float:none;
        margin:0 auto;
@@ -127,16 +149,36 @@
     }
   }
 
+  @media (max-width: 756px){
+    #tf-home h1 {
+      font-size: 70px;
+    }
+  }
 
+  @media (max-width: 756px){
+    #tf-home h1 {
+      font-size: 60px;
+    }
+    .content{
+      height:455px;
+    }
+  }
+
+  @media (max-width: 651px){
+    #tf-home h1 {
+      font-size: 54px;
+    }
+
+  }
  /*
      Responsive to Landing Page   Under 570px
      ==========================================*/
      @media (max-width: 570px){
       #tf-home h1{
-        font-size: 33px;
+        font-size: 54px;
       }
       #tf-home p.lead {
-        font-size: 18px;
+        font-size: 25px;
       }
       .profit ul{
         font-size: 14px;
@@ -160,12 +202,17 @@
    .size-img-logo{
     max-width: 75%;
   }
+
+  .footer-mobile{
+    width: 100%;
+    text-align: center;
+  }
 }
 
  /*
      Responsive to Landing Page   Under 375px
      ==========================================*/
-     @media (max-width: 375px){
+     @media (max-width: 381px){
       .footer {
         margin: 0 0px;
       }
@@ -173,39 +220,47 @@
         margin-top: 7px;
       }
 
+      #tf-home h1{
+        font-size:47px;
+      }
+
+      p.intro {
+        margin: 20px 0 8px;
+        line-height: 18px;
+        font-size: 14px;
+      }
+
     }
-
-
  /*
      Responsive to Landing Page   Under 365px
      ==========================================*/
-     @media (max-width: 365px){
+     @media (max-width: 381px){
       .reg-btn{
         width:248px;
-        font-size: 16px;
+        font-size: 15px;
       }
       #tf-home h1{
-        font-size:32px;
+        font-size:47px;
       }
 
       #tf-home p.lead {
-        font-size: 18px;
+        font-size: 24px;
       }
       .section-title h2{
-        font-size: 28px;
+        font-size: 30px;
       }
       .profit ul{
-        font-size: 12px;
+        font-size: 14px;
       }
       p.intro {
         font-size: 14px;
       }
       .service p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 15px;
       }
       .service h4 {
-        font-size: 16px;
+        font-size: 18px;
       }
       .points {
         margin-bottom: 20px;
@@ -218,54 +273,57 @@
         text-align:left;
         width: 100%; 
       }
-
       .profit {
         min-height: 312px;
         padding-bottom: 50px;
-
+      }
+      .profit h4 {
+        font-size: 28px;
       }
       .contact .email {
         margin-right: 0px;
       }
-
       .contact .call {
        margin-left: 0px; 
-
      }
-
      .section-title.center {
       padding: 30px 0 14px;
     }
-    .profit img {
-     margin-bottom: 0px; 
-
-   }
-   p.intro {
-    margin: 20px 0 8px;
-    line-height: 18px;
+    .profit img 
+    {
+      margin-bottom: 0px; 
+    }
+    p.intro {
+      margin: 20px 0 8px;
+      line-height: 18px;
+    }
+    .navbar-brand>img {
+      display: block;
+    }
+    .profit ul li {
+      line-height: 15px
+    }
+    img.size-img {
+      max-width: 50%;
+    }
+    img.size-img-profit {
+      max-width: 30%;
+    }
+    .size-img-contact
+    {
+      max-width: 50%;
+    }
+    .size-img-logo{
+      max-width: 50%;
+    }
+    .box {
+      padding: 30px 50px 50px 50px
+    }
+    .content {
+      top: 80px;
+      height: 416px;
+    }
   }
-  .navbar-brand>img {
-    display: block;
-
-  }
-  .profit ul li {
-    line-height: 15px
-  }
-  img.size-img {
-    max-width: 50%;
-  }
-  img.size-img-profit {
-    max-width: 30%;
-    height: 0%;
-  }
-  .size-img-contact
-  {
-    max-width: 50%;
-  }
-  .size-img-logo{
-    max-width: 50%;
-  }
-}
 
  /*
      Responsive to Landing Page   Under 321px
@@ -275,9 +333,19 @@
       .footer {
         margin: 0 0px;
       }
-
       .footer p {
         margin-top: 7px;
+      }
+      #tf-home h1{
+        font-size:40px;
+      }
+      #tf-home p.lead {
+        font-size: 20px;
+      }
+
+      .content {
+        top: 80px;
+        height: 377px;
       }
 
     }
@@ -285,7 +353,6 @@
  /*
      Responsive to Landing Page   Under 300px
      ==========================================*/
-
      @media (max-width: 300px){
       .reg-btn{
         width:81%;
@@ -296,9 +363,18 @@
        padding-bottom: 50px; 
      }
      .box {
-       padding: 0px 0px 0px 0px; 
+       padding: 20px 0px 0px 0px; 
      }
    }
+
+
+
+     @media (max-width: 281px){
+      #tf-home h1{
+        font-size:25px;
+      }
+}
+
 
  /*
      Responsive to Landing Page   Under 260px
@@ -325,23 +401,22 @@
      .points {
       font-size: 19px;
     }
+    .content{
+      top: -100px;
+    }
   }
-
-
 
 
 /*
      Responsive to Search Page
-    ==========================================*/
-
-
-        @media (max-width: 991px){
-          .content-search img {
-             max-width: 100%;
-          }
-          .after-login{
-            width: 85%!important;
-          }
-          .after-login input{
-          }
+     ==========================================*/
+     @media (max-width: 991px){
+      .content-search img {
+       max-width: 100%;
+     }
+     .after-login{
+      width: 85%!important;
+    }
+    .after-login input{
+    }
   }

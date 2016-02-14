@@ -3,7 +3,9 @@
 return [
     'greetings-1' => 'The biggest industrial',
     'greetings-2' => 'spare parts market place',
-    'intro'       => 'Buy from trusted sellers. Sell to trusted buyers. At your own rates.',
+    'intro-1'       => 'Buy from trusted sellers.',
+    'intro-2'       => ' Sell to trusted buyers.',
+    'intro-3'       => ' At your own rates.',
     'more'        => 'Learn More',
     'aboutHeader' => 'Connecting Suppliers and Customers',
     'aboutIntro'  => 'The search platform for ordering spareparts for your machinery at your fingertips.',
